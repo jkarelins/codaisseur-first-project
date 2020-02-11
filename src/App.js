@@ -8,7 +8,9 @@ function App() {
     <div className="App">
       <Navbar />
       <div className="d-flex justify-content-center">
-        <Main />
+        <div className="col-sm-12 col-md-10 col-lg-8 col-xl-6">
+          <Main />
+        </div>
       </div>
     </div>
   );

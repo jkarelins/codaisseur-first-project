@@ -1,5 +1,5 @@
-/* .dogImage {
+.dogImage {
   width: 100%;
-  object-fit: cover;
-  height: 300px;
-} */
+  object-fit: scale-down;
+  max-height: 400px;
+}
