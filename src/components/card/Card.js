@@ -8,7 +8,14 @@ export default class Card extends Component {
         <div className="card imgOfFeed mb-3">
           <img src={this.props.imageSrc} className="card-img-top" alt="..." />
           <div className="card-body">
-            <p className="card-text"></p>
+            <h5 className="card-title">
+              <button className="btn btn-outline-dark">
+                <i className="fab fa-gratipay"></i>{" "}
+              </button>{" "}
+              Nr: 111
+            </h5>
+
+            <p className="card-text">test</p>
           </div>
         </div>
       </div>
