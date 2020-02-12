@@ -47,7 +47,9 @@ export default class Card extends Component {
             {this.state.like}
           </h5>
 
-          <p className="card-text">Comments </p>
+          <p className="card-text">
+            <Comments />
+          </p>
         </div>
       </div>
     );

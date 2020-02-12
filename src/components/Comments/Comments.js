@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
 export default class Comments extends Component {
-  static propTypes = {
-    addComment: PropTypes.func.isRequired
-  };
+  // static propTypes = {
+  //   addComment: PropTypes.func.isRequired
+  // };
 
   state = {
     name: "",
@@ -15,8 +15,8 @@ export default class Comments extends Component {
     this.setState({
       name: "",
       message: ""
+    });
   };
-
   handleChange = event => {
     this.setState({
       [event.target.name]: event.target.value
