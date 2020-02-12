@@ -7,7 +7,7 @@ export default class Main extends Component {
     loading: true
   };
   componentDidMount() {
-    fetch("https://dog.ceo/api/breeds/image/random/10")
+    fetch("https://dog.ceo/api/breed/hound/images")
       .then(images => images.json())
       .then(images => {
         return this.setState({

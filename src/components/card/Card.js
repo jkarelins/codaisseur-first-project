@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Card.css";
+import Comments from "../Comments/Comments";
 
 export default class Card extends Component {
   state = {

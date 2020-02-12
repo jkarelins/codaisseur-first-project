@@ -13,8 +13,8 @@ export default class Comments extends Component {
     event.preventDefault();
     this.props.addComment(this.state.name);
     this.setState({
-      name: "";
-      message: "";
+      name: "",
+      message: ""
   };
 
   handleChange = event => {
