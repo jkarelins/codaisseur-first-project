@@ -12,6 +12,9 @@ export default class Comments extends Component {
   handleSubmit = event => {
     event.preventDefault();
     this.props.addComment(this.state.name);
+    this.setState({
+      name: "";
+      message: "";
   };
 
   handleChange = event => {
